@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firefighters Fitness Test Privacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: one readable column, plain policy document with a summary panel up top */
+:root{
+  --bg:#F3F5F7; --surface:#FFFFFF; --ink:#16233B; --muted:#56657A; --line:#D5DCE4; --red:#B5132A;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F1828; --surface:#172338; --ink:#E7ECF3; --muted:#9AA8B9; --line:#2A3A55; --red:#FF5A6B;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F1828; --surface:#172338; --ink:#E7ECF3; --muted:#9AA8B9; --line:#2A3A55; --red:#FF5A6B;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+main{max-width:44rem;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2{font-family:var(--display);font-weight:700;line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:2.5rem}
+h2{font-size:1.45rem;margin-top:36px;margin-bottom:8px}
+h3{font-size:1.05rem;margin:18px 0 4px}
+p,ul{margin:0 0 12px}
+ul{padding-left:1.2em}
+li{margin-bottom:6px}
+.meta{color:var(--muted);margin-top:6px}
+.summary{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:10px;padding:16px 18px;margin-top:24px}
+.summary h2{margin-top:0}
+.summary ul{margin-bottom:0}
+a{color:var(--red)}
+a:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.email{font-weight:600;user-select:all;word-break:break-all}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+.tablewrap{overflow-x:auto;margin-bottom:12px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:600}
+</style>
+<style>nav{max-width:44rem;margin:0 auto;padding:16px max(16px,env(safe-area-inset-left,0px)) 0;display:flex;gap:18px;font-weight:600}</style>
+</head>
+<body>
+<nav><a href="./">Support</a><a href="privacy.html">Privacy policy</a></nav>
+<main>
+  <h1>Firefighters Fitness Test privacy policy</h1>
+  <p class="meta">Last updated 15 November 2026</p>
+
+  <section class="summary">
+    <h2>In short</h2>
+    <ul>
+      <li>Your age, heart rate readings and VO₂max score stay on your iPhone and Apple Watch. They are never sent to us or anyone else.</li>
+      <li>Heart rate is read from your Apple Watch, and your score is saved to Apple Health only when you tap Save to Health.</li>
+      <li>The free version shows adverts from Google AdMob, which collects some device information. Paying to remove ads stops this.</li>
+      <li>We don't have accounts, servers or a database. We can't see your results.</li>
+    </ul>
+  </section>
+
+  <h2>Who we are</h2>
+  <p>Firefighters Fitness Test is made by Steven Williams, an independent developer in the United Kingdom. Steven Williams is responsible for this app's handling of personal information. You can contact us at <span class="email">stevenwilliams_81520@hotmail.com</span>.</p>
+
+  <h2>What the app uses and where it's kept</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Information</th><th>Why</th><th>Where it's kept</th></tr></thead>
+      <tbody>
+        <tr><td>Your age and step height</td><td>To work out your maximum heart rate and the heart rate at which the test stops</td><td>On your iPhone, until you delete the app</td></tr>
+        <tr><td>Starting heart rate and stage heart rates</td><td>To calculate your estimated VO₂max</td><td>On your iPhone during the test and on the result screen. Not stored after you start a new test</td></tr>
+        <tr><td>Live heart rate from your Apple Watch</td><td>To record each stage and stop the test if you go over your target heart rate</td><td>Passed directly between your own Apple Watch and iPhone</td></tr>
+        <tr><td>The step test workout</td><td>Saved to Apple Health as a workout when the test ends</td><td>Apple Health on your devices</td></tr>
+        <tr><td>Your VO₂max score</td><td>Saved to Apple Health only if you tap Save to Health</td><td>Apple Health on your devices</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Apple Health and heart rate data</h2>
+  <p>The app asks your permission before it reads heart rate on your Apple Watch or writes workouts and VO₂max readings to Apple Health. You can change or withdraw this at any time in the Health app: tap your profile picture, then Apps, then Fitness Test.</p>
+  <p>Health data is used only to run the test and show your result. It is never sent to us, never shared with advertisers or any other third party, never used for advertising or marketing, and never sold.</p>
+
+  <h2>Adverts</h2>
+  <p>The free version shows a banner advert from Google AdMob on the setup and result screens. No adverts are shown while a test is running.</p>
+  <p>To show and measure adverts, Google may collect information such as your IP address (which gives an approximate location), device type and settings, app usage and ad interactions, and diagnostic data. Google handles this information under its own privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+  <p>If you're in the UK, the European Economic Area or Switzerland, the app asks for your consent before any adverts are loaded, using Google's consent message. You can change your choice at any time with Ad privacy choices on the app's setup screen.</p>
+  <p>The app does not ask for permission to track you across other companies' apps and websites, so Google cannot use your device's advertising identifier.</p>
+  <p>None of your fitness or health information is ever shared with Google or used for adverts.</p>
+
+  <h2>Removing ads</h2>
+  <p>You can remove adverts with a one-off in-app purchase. Payment is handled entirely by Apple. We never see your payment details; Apple only tells the app that the purchase was made, so it can hide the adverts. Once ads are removed, the app no longer loads Google AdMob adverts.</p>
+
+  <h2>Legal basis</h2>
+  <p>Under UK GDPR, the app processes health information on your device with your explicit consent, given through Apple's Health permission screens. Advertising data is processed by Google with your consent where the law requires it, given through the consent message.</p>
+
+  <h2>Your choices and rights</h2>
+  <ul>
+    <li>Turn Health access on or off in the Health app at any time.</li>
+    <li>Change your advertising consent with Ad privacy choices in the app.</li>
+    <li>Delete VO₂max readings or workouts from Apple Health at any time.</li>
+    <li>Delete the app to remove your saved age and step height.</li>
+  </ul>
+  <p>Because we don't hold any of your information, there is nothing for us to access, correct or delete on your behalf. For information Google holds about you through adverts, see Google's privacy policy. You also have the right to complain to the Information Commissioner's Office (ico.org.uk).</p>
+
+  <h2>Children</h2>
+  <p>The app is intended for adults taking a fitness test, and is not directed at children under 13.</p>
+
+  <h2>Not medical advice</h2>
+  <p>The VO₂max result is an estimate from a submaximal step test. It is not a medical assessment. Stop the test if you feel unwell, dizzy or in pain.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new date at the top.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy in Firefighters Fitness Test: <span class="email">stevenwilliams_81520@hotmail.com</span></p>
+</main>
+</body>
+</html>
