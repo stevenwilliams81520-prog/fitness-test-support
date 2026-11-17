@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firefighters Fitness Test Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: one readable column, plain policy document with a summary panel up top */
+:root{
+  --bg:#F3F5F7; --surface:#FFFFFF; --ink:#16233B; --muted:#56657A; --line:#D5DCE4; --red:#B5132A;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F1828; --surface:#172338; --ink:#E7ECF3; --muted:#9AA8B9; --line:#2A3A55; --red:#FF5A6B;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F1828; --surface:#172338; --ink:#E7ECF3; --muted:#9AA8B9; --line:#2A3A55; --red:#FF5A6B;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+main{max-width:44rem;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2{font-family:var(--display);font-weight:700;line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:2.5rem}
+h2{font-size:1.45rem;margin-top:36px;margin-bottom:8px}
+h3{font-size:1.05rem;margin:18px 0 4px}
+p,ul{margin:0 0 12px}
+ul{padding-left:1.2em}
+li{margin-bottom:6px}
+.meta{color:var(--muted);margin-top:6px}
+.summary{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:10px;padding:16px 18px;margin-top:24px}
+.summary h2{margin-top:0}
+.summary ul{margin-bottom:0}
+a{color:var(--red)}
+a:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.email{font-weight:600;user-select:all;word-break:break-all}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+.tablewrap{overflow-x:auto;margin-bottom:12px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:600}
+</style>
+<style>nav{max-width:44rem;margin:0 auto;padding:16px max(16px,env(safe-area-inset-left,0px)) 0;display:flex;gap:18px;font-weight:600}</style>
+</head>
+<body>
+<nav><a href="./">Support</a><a href="privacy.html">Privacy policy</a></nav>
+<main>
+  <h1>Firefighters Fitness Test support</h1>
+  <p class="meta">Help for the Firefighters Fitness Test app for iPhone and Apple Watch</p>
+
+  <section class="summary">
+    <h2>Contact</h2>
+    <p>Questions, problems or suggestions: email <span class="email">stevenwilliams_81520@hotmail.com</span>. Please say which iPhone and Apple Watch you have, and what happened.</p>
+  </section>
+
+  <h2>How the test works</h2>
+  <ul>
+    <li>Enter your age and the height of your step (15, 20, 25 or 30 cm).</li>
+    <li>Open Fitness Test on your Apple Watch and press Start Test. It reads your starting heart rate and starts the test on your iPhone.</li>
+    <li>Step up-up-down-down to the beat. There are five 2-minute stages, from 15 to 35 steps a minute.</li>
+    <li>Press Record HR on your watch near the end of each stage. If you forget, the app uses your live heart rate and marks it "auto".</li>
+    <li>If your heart rate goes over 80% of your age-predicted maximum, the test stops and you get your score.</li>
+  </ul>
+
+  <h2>Common questions</h2>
+  <h3>My watch says "Enter your age in the iPhone app"</h3>
+  <p>Open the app on your iPhone, enter your age, and tap Done on the keyboard. Keep the iPhone app open, then reopen Fitness Test on the watch.</p>
+  <h3>The iPhone says "Install Fitness Test on your Apple Watch"</h3>
+  <p>Open the Watch app on your iPhone, scroll to Available Apps and tap Install next to Fitness Test.</p>
+  <h3>Can I do the test without an Apple Watch?</h3>
+  <p>Yes. Type your starting heart rate under "No watch?", tap Start without watch, and type your heart rate into each stage during the test.</p>
+  <h3>Remove ads isn't working</h3>
+  <p>If Apple asks for your Apple Account password a second time, enter it and tap OK. If you've bought it before, tap Restore purchase, using the same Apple Account you bought it with.</p>
+  <h3>My score didn't appear in Apple Health</h3>
+  <p>Tap Save to Health on the result screen. If nothing happens, open the Health app, tap your profile picture, then Apps, then Fitness Test, and allow VO2 Max.</p>
+  <h3>How accurate is the result?</h3>
+  <p>The Chester Step Test gives an estimate, usually within a few ml/kg/min of a laboratory test. It is not a medical assessment. Stop the test if you feel unwell, dizzy or in pain.</p>
+
+  <h2>Privacy</h2>
+  <p>Your age, heart rate and results stay on your iPhone, Apple Watch and Apple Health. Read the full <a href="privacy.html">privacy policy</a>.</p>
+</main>
+</body>
+</html>
